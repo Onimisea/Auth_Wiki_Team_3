@@ -63,7 +63,7 @@ def signupView(request):
 
 def signoutView(request):
     logout(request)
-    return redirect('signin')
+    return redirect('login')
 
 
 def forgotPasswordView(request):

@@ -9,11 +9,6 @@ from .models import AuthCode, Notification
 def index(request):
     return render(request, 'library/index.html')
 
-
-def index(request):
-    return render(request, 'library/index.html')
-
-
 def documentation(request):
     return render(request, 'library/documentation.html')
 
